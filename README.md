@@ -17,7 +17,7 @@ I forgot which version of deltaSVM I used. I downloaded it in May/June 2015. The
 + OUTPUT: the output of SNP scoring
 
 ## Train gkmSVM
-We have included the re-trained (June 17, 2016) model in the repository. To use it, you will need to also download (with wget) the kernerl file [here](gerv.csail.mit.edu/mb.ctcf.kernel)(25G) and **put it under `TRAIN_GKMSVM` **
+We have included the re-trained (June 17, 2016) model in the repository. To use it, you will need to also download (with wget) the kernerl file [here](http://gerv.csail.mit.edu/mb.ctcf.kernel)(25G) and **put it under `TRAIN_GKMSVM` **
 
 To train a new model (named mb.ctcf) and score the test set as well as all10mer (for deltasvm):
 ```
