@@ -16,15 +16,15 @@ test_neg_out = exp + '.test.neg.out'
 
 cmd = ' '.join(['./gkmsvm_kernel -d 3 ',train_pos, train_neg,kernel])
 print cmd
-#os.system(cmd)
+os.system(cmd)
 
 cmd = ' '.join(['./gkmsvm_train ',kernel,train_pos, train_neg,svm])
 print cmd
-#os.system(cmd)
+os.system(cmd)
 
 cmd = ' '.join(['./gkmsvm_classify -d 3 ','all10mer.fa',svm_svseq, svm_svalpha,'all10mer.'+exp])
 print cmd
-#os.system(cmd)
+os.system(cmd)
 
 cmd = ' '.join(['./gkmsvm_classify -d 3 ',test_pos,svm_svseq, svm_svalpha,test_pos+'.pred'])
 print cmd
