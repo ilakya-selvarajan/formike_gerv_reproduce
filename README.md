@@ -1,5 +1,6 @@
 ## GKMSVM and deltaSVM version
 It turned out I didn't use the R package. I downloaded gkmSVM-1.2 from the gkmSVM paper website. The scripts are here:
+
 + TRAIN_GKMSVM/gkmsvm_kernel
 + TRAIN_GKMSVM/gkmsvm_train
 + TRAIN_GKMSVM/gkmsvm_classify
